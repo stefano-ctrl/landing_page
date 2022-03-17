@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* first section */
 .header-logo img {
     max-width: 100px;
     border-radius: 10%;
@@ -35,7 +36,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: 100vh;
 }
 
 .main-title h1 {
@@ -57,7 +58,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 10px 0 100px 0;
+    margin: 10px 0 200px 0;
 }
 
 .header-main {
@@ -70,6 +71,7 @@ header {
     display: flex;
     gap: 20px;
     align-items: center;
+    height: 40%;
 }
 
 .main-title {
@@ -84,4 +86,33 @@ header {
     width: 100px;
     border-radius: 10%;
     border-color: #3882f6;
+}
+
+/* second section */
+
+.second-part {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.second-part h1 {
+    margin: 40px;
+}
+
+.illustrations {
+    display: flex;
+    gap: 20px;
+}
+
+.illustrations li img {
+    max-width: 250px;
+    height: 250px;
+}
+
+.illustrations li p {
+    text-align: center;
+    margin: 5px;
 }
